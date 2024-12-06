@@ -4,6 +4,9 @@
 
 In this repository, we release the code required to replicate and expand upon our results in our work: `Locality-Aware Graph-Rewiring in GNNs`. We release our work under the MIT license.
 
+> DISCLAIMER:
+The baseline results on LRGB are outdated as others has found that the original models were heavily undertuned. Please see [this work](https://arxiv.org/abs/2309.00367) for more details. As a consequence, we heavily encourage not using this repository as is, but rather running using the updated version of LRGB. As the main author is now working on different research, this repository is now not maintained anymore. 
+
 The core of the functionality of LASER may be found in the `laser/rewiring` directory, with the details being described in the paper and in the docs within the code.
 
 ### Environment for LASER with Conda
